@@ -12,7 +12,7 @@ public class SpringDockerApplication {
         SpringApplication.run(SpringDockerApplication.class, args);
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String home() {
         return "Hello Docker World";
     }
