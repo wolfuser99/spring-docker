@@ -14,6 +14,6 @@ public class SpringDockerApplication {
 
     @RequestMapping("/hello")
     public String home() {
-        return "Hello Docker World v0.9.1";
+        return "Hello Docker World v0.9.2";
     }
 }
